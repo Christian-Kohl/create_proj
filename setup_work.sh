@@ -1,9 +1,9 @@
 #!/bin/bash
 
 cd
-cd Documents/Projects
+cd Documents/Projects/$
 (atom $1 &)
 (spotify &)
 (firefox &)
-sleep 10
-spotifycli --play
+(sleep 10)
+(spotifycli --play)
