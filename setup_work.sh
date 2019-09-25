@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd
-cd Documents/Projects/$
+cd Documents/Projects/$1
 (atom $1 &)
 (spotify &)
 (firefox &)
