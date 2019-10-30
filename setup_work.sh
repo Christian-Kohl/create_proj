@@ -2,7 +2,7 @@
 
 DIR="${1}_env"
 activate () {
-    source ~/Documents/Projects/drinkbox/${DIR}/bin/activate
+    source ~/Documents/Projects/$1/${DIR}/bin/activate
 }
 
 cd
