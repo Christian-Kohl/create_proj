@@ -1,0 +1,12 @@
+{
+	"scripts" : [
+		{"name":"test",
+		 "short":"t",
+		 "code":"echo test",
+		 "options": ["String", "String"],
+		 "desc": "This is a test script",
+		 "type": "script",
+		 "dateCreated": "today"
+		}
+	]
+}
