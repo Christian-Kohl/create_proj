@@ -7,7 +7,6 @@ activate () {
 
 cd
 cd ~/Documents/Projects/
-(atom $1 &)
 (spotify &)
 (firefox &)
 (sleep 10)
