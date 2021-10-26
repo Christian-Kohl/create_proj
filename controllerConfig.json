@@ -1,1 +1,1 @@
-{"scripts": [{"name": "test", "code": "echo test", "options": ["String", "String"], "desc": "This is a test script"}, {"name": "test", "code": "test", "options": "test", "desc": "test"}]}
+{"scripts": []}
