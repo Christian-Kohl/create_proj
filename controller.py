@@ -1,5 +1,6 @@
 import sys
 import json
+import os
 
 
 scr = []
@@ -45,6 +46,7 @@ def manageInputs():
             scrCodes = [script["name"] for script in scr]
             zip_iterator = zip(scrCodes, scr)
             scriptDict = dict(zip_iterator)
+            execute_script(scriptDict[command], arguments)
 
     else:
         print("If you need some help, run the command with --help as the first option")
@@ -80,6 +82,9 @@ def remove(name):
         scr = t
     with open('controllerConfig.json', 'w') as outfile:
         json.dump({"scripts": scr}, outfile)
+
+def execute_script(command, args):
+    os.system(command["file"] + " " + ' '.join(args))
 
 def edit():
     return 0
