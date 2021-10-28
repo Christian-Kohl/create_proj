@@ -1,1 +1,1 @@
-{"scripts": [{"name": "setup_work", "file": "setup_work", "options": "", "desc": "Setup your work environment"}, {"name": "create_env", "file": "create_env", "options": "", "desc": "Create environment"}]}
+{"scripts": [{"name": "setup_work", "file": "setup_work", "options": "", "desc": "Setup your work environment"}, {"name": "create_env", "file": "create_env", "options": "", "desc": "Create environment"}, {"name": "echo", "file": "echo", "options": "echo", "desc": "echo"}]}
